@@ -242,13 +242,13 @@ var price2 = 10;
 var totalPrice = price1 + price2;
 console.log(totalPrice);
 
-convert string to number !!!
+convert string to number   <----------!!!
 
-parseInt !!!
+parseInt   <----------!!!
 var price1Number = parseInt(price1);
 console.log(price1Number);
 
-parseFloat !!!
+parseFloat   <----------!!!
 var gpa = '3.41';
 var gpaNumber = parseFloat(gpa);
 console.log(gpaNumber);
