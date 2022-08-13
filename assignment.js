@@ -1,4 +1,6 @@
-function radianToDegree(radian){
+/*
+
+function radianToDegree (radian){
   let degree = radian * 57.2957795;
   degree = degree.toFixed(2);
   return degree;
@@ -8,7 +10,16 @@ function radianToDegree(radian){
 
 
 
-function isJavaScriptFile(){
+function isJavaScriptFile (folder){
+  const fileName = 'index.js';
+  const otherName = 'pic.png';
+  fileName.endsWith('.js');
+  if( fileName === true){
+  return true
+}
+else{
+  return false
+}
 
 }
 
@@ -33,14 +44,14 @@ function oilPrice (dieselQuantity, petrolQuantity, octaneQuantity){
 
 
 
-function publicBusFare(busFair){
+function publicBusFare (busFair){
   const picnicBus = 100;
   const microBus = 11;
   const publicBus = 6;
 
-  if(busFair <= picnicBus){
-    let picnicBusTraveler = 117 % 100;
-    return picnicBusTraveler;
+  if(ticketQuantity <= 100){
+    let price = ticketQuantity * first100Rate;
+    return price;
   }
   else if(busFair <= microBus){
     let microBusTraveler = 117 % 11;
@@ -60,6 +71,18 @@ function publicBusFare(busFair){
 
 
 
-function isBestFriend(){
 
-}
+function isBestFriend (friend) {
+  const bestFriendOne = {name:'abul', friend:'babul'}
+  const bestFriendTwo = {name:'babul', friend:'abul'}
+  
+  if ( bestFriendOne.length === bestFriendTwo.length){
+    return true
+  }
+  else if ( bestFriendTwo.length === bestFriendOne.length){
+    return false
+  }
+  
+  } 
+
+*/
